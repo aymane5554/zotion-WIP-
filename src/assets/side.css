@@ -1,0 +1,42 @@
+#side-bar{
+    color: #effff1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    max-width: 15%;
+    overflow-y: scroll;
+    height: 100%;
+    background-color: #1F3823;
+  }
+
+  #side-bar h1{
+    margin: 0px;
+    font-size:3.5em;
+  }
+  
+  #side-bar h1 a{
+    text-decoration: none;
+    color: #c5c6c7;
+  } 
+  
+  img{
+    width:70%;
+    height: auto;
+    margin-left:10px;
+  }
+
+  @media only screen and (max-width: 995px) {
+    #side-bar{
+      max-width: none;
+      width: 100%;
+      height: auto;
+      
+    }
+    img{
+      width:auto;
+      height: 50px;
+      margin-left: auto;
+      margin-top: auto;
+    }
+  }
+  
